@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+.nav{
+    background-color: black;
+    color: white;
+}
+.nav img{
+    width: 190px;
+    height: 72px;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav li{
+    list-style-type: none;
+}
+.nav a{
+    text-decoration: none;
+    padding: 13px 15px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav a:hover{
+    color: red;
+}
+.heading{
+    background-color: red;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 13px 14px;
+}
+.heading p{
+    text-align: center;
+}
+.heading1{
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.heading1 h1{
+    text-align: center;
+}
+.big-container{
+    width: 100%;
+    height: 190vh;
+    background-image: url(img/rog_bg_pattern.jpg);
+    background-size: cover;
+    background-color: black;
+    padding: 20px 40px;
+    margin-bottom: 50px;
+}
+.content h1{
+    text-align: center;
+    color: white;
+    padding: 80px 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content1{
+   
+}
+#zoomBOut {
+    /* (A1) DIMENSIONS */
+    width: 450px;
+    height: 560px;
+   
+    /* (A2) HIDE SCROLLBARS */
+    overflow: hidden;
+  }
+   
+  /* (B) INNER WRAPPER */
+  #zoomBIn {
+    /* (B1) FIT OUTER WRAPPER */
+    width: 100%;
+    height: 100%;
+   
+    /* (B2) BACKGROUND IMAGE */
+    background-image: url("img/3.webp");
+    background-position: center;
+    background-size: cover;
+   
+    /* (B3) ANIMATE ZOOM */
+    transition: transform ease 0.3s;
+  }
+   
+  /* (C) ZOOM ON HOVER */
+  #zoomBIn:hover { transform: scale(1.2); }
+#zoomBOut1 {
+    /* (A1) DIMENSIONS */
+    width: 450px;
+    height: 560px;
+   
+    /* (A2) HIDE SCROLLBARS */
+    overflow: hidden;
+  }
+   
+  /* (B) INNER WRAPPER */
+  #zoomBIn1 {
+    /* (B1) FIT OUTER WRAPPER */
+    width: 100%;
+    height: 100%;
+   
+    /* (B2) BACKGROUND IMAGE */
+    background-image: url("img/4.webp");
+    background-position: center;
+    background-size: cover;
+   
+    /* (B3) ANIMATE ZOOM */
+    transition: transform ease 0.3s;
+  }
+   
+  /* (C) ZOOM ON HOVER */
+  #zoomBIn1:hover { transform: scale(1.2); }
+#zoomBOut2 {
+    /* (A1) DIMENSIONS */
+    width: 450px;
+    height: 560px;
+   
+    /* (A2) HIDE SCROLLBARS */
+    overflow: hidden;
+  }
+   
+  /* (B) INNER WRAPPER */
+  #zoomBIn2 {
+    /* (B1) FIT OUTER WRAPPER */
+    width: 100%;
+    height: 100%;
+   
+    /* (B2) BACKGROUND IMAGE */
+    background-image: url("img/5.webp");
+    background-position: center;
+    background-size: cover;
+   
+    /* (B3) ANIMATE ZOOM */
+    transition: transform ease 0.3s;
+  }
+   
+  /* (C) ZOOM ON HOVER */
+  #zoomBIn2:hover { transform: scale(1.2); }
+
+  .main{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .main2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #zoomBOut4 {
+    /* (A1) DIMENSIONS */
+    width: 700px;
+    height: 360px;
+   
+    /* (A2) HIDE SCROLLBARS */
+    overflow: hidden;
+  }
+   
+  /* (B) INNER WRAPPER */
+  #zoomBIn4 {
+    /* (B1) FIT OUTER WRAPPER */
+    width: 100%;
+    height: 100%;
+   
+    /* (B2) BACKGROUND IMAGE */
+    background-image: url("img/6.webp");
+    background-position: center;
+    background-size: cover;
+   
+    /* (B3) ANIMATE ZOOM */
+    transition: transform ease 0.3s;
+  }
+   
+  /* (C) ZOOM ON HOVER */
+  #zoomBIn4:hover { transform: scale(1.2); }
+  #zoomBOut5 {
+    /* (A1) DIMENSIONS */
+    width: 700px;
+    height: 360px;
+   
+   
+    /* (A2) HIDE SCROLLBARS */
+    overflow: hidden;
+  }
+   
+  /* (B) INNER WRAPPER */
+  #zoomBIn5 {
+    /* (B1) FIT OUTER WRAPPER */
+    width: 100%;
+    height: 100%;
+   
+    /* (B2) BACKGROUND IMAGE */
+    background-image: url("img/7.webp");
+    background-position: center;
+    background-size: cover;
+   
+    /* (B3) ANIMATE ZOOM */
+    transition: transform ease 0.3s;
+  }
+   
+  /* (C) ZOOM ON HOVER */
+  #zoomBIn5:hover { transform: scale(1.2); }
+
+
+  .btn{
+    color: red;
+    font-size: 20px;
+    padding-top: 70px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  a{
+    text-decoration:none;
+  }
+  a:hover {
+      border-bottom: 1px solid;
+      -webkit-animation: border-hover .6s infinite ease-in-out !important;
+      animation: border-hover .6s infinite ease-in-out !important
+  }
+  @-webkit-keyframes border-hover {
+    0%,
+    100% {
+        border-bottom-style: dotted
+    }
+    25%,
+    50% {
+        border-bottom-style: dashed
+    }
+    75% {
+        border-bottom-style: solid
+    }
+}
+
+@-moz-keyframes border-hover {
+    0%,
+    100% {
+        border-bottom-style: dotted
+    }
+    25%,
+    50% {
+        border-bottom-style: dashed
+    }
+    75% {
+        border-bottom-style: solid
+    }
+}
+
+@-o-keyframes border-hover {
+    0%,
+    100% {
+        border-bottom-style: dotted
+    }
+    25%,
+    50% {
+        border-bottom-style: dashed
+    }
+    75% {
+        border-bottom-style: solid
+    }
+}
+
+@keyframes border-hover {
+    0%,
+    100% {
+        border-bottom-style: dotted
+    }
+    25%,
+    50% {
+        border-bottom-style: dashed
+    }
+    75% {
+        border-bottom-style: solid
+    }
+}
+.btn a{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.heading3{
+    margin-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.action{
+    display: flex;
+    justify-content: space-around;
+
+}
+.action1:hover{
+    color: red;
+}
+.action img{
+    width: 450px;
+    height: 280px;
+}
+.action {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.join{
+    margin-bottom: -5px;
+}
+.join img{
+    width: 100%;
+    height: 55vh;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 50vh;
+    background-image: url(img/rog_bg_pattern.jpg);
+    margin-top: 0px;
+    padding: 40px 40px;
+}
+.footer li a{
+    margin-top: 100px;
+   
+    color: white;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer li a:hover{
+    color: red;
+    cursor: pointer;
+}
+.icon{
+    float: right;
+
+}
+.icon i{
+    color: white;
+    font-size: 30px;
+    padding: 14px 14px;
+}
+.icon i:hover{
+    color: red;
+    cursor: pointer;
+}
+hr{
+    margin-top: 76px;
+    
+}
+.lan{
+color: white;
+font-size: 15px;
+padding: 20px;
+}
+#logo{
+    margin-left: -40px;
+    width: 106%;
+    width: 106%;
+}
